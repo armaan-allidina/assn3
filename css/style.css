@@ -26,9 +26,6 @@ body {
         height: 18vw;
         margin: 1vw;
         padding: 25px;
-        border-radius: 10px;
-    
-        /* aligns text (and anything else) in the middle of the box */
         display: flex;
         flex-direction: column;
         justify-content: center;
