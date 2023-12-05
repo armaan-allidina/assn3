@@ -12,7 +12,7 @@ $("#box1").on("click", function(){
         a1=false;
     }
     else{
-        $(this).css("transform", "translate(300px, 300px)");
+        $(this).css("transform", "translate(350px, 350px)");
         a1=true;
     }
 });
