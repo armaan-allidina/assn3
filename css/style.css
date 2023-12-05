@@ -15,18 +15,21 @@ body {
     background-color: black  ;
     flex-direction: column;
 }
-
+h1{
+    color: rgb(127.5, 127.5, 127.5 );
+}
 .wrap {
     margin: auto;
-    display: flex;
     gap: 100px;
-    /* display: grid; */
     flex-wrap: wrap;
     justify-content: center;
-   /* grid-template-columns: 1fr 1fr 1fr;*/
+    display:grid;
+   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.box {}
+.box {
+    transition: 1s;
+}
 .mid {
     background-color: lightgrey;
     min-width: 300px;
@@ -41,13 +44,13 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-   /* grid-column: 2;*/
+   grid-column: 2;
     
 }
-/*
+
 .wrap div:nth-child(6){
     grid-column: 1;
-    grid-row: 3
+    grid-row: 3;
 }
 .wrap div:nth-child(5){
     grid-column: 2;
@@ -56,4 +59,4 @@ body {
 .wrap div:nth-child(7){
     grid-column: 3;
     grid-row: 3;
-}*/
+}
