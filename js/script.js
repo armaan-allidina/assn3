@@ -42,7 +42,7 @@ $("#box4").on("click", function(){
         a4=false;
     }
     else{
-        $(this).css("transform", "translate(0px, -200px)");
+        $(this).css("transform", "translate(0px, -175px)");
         a4=true;
     }
 });
