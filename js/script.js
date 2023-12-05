@@ -18,7 +18,7 @@ $("#box1").on("click", function(){
 });
 $("#box2").on("click", function(){
     if(a2==true){
-        $(this).css("transform", "translate(0px, -40px)");
+        $(this).css("transform", "translate(0px, -20px)");
         a2=false;
     }
     else{
@@ -52,7 +52,7 @@ $("#box5").on("click", function(){
         a5=false;
     }
     else{
-        $(this).css("transform", "translate(300px, -300px)");
+        $(this).css("transform", "translate(250px, -250px)");
         a5=true;
     }
 });

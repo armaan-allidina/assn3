@@ -20,7 +20,7 @@ h1{
 }
 .wrap {
     margin: auto;
-    gap: 50px;
+    gap: 40px;
     flex-wrap: wrap;
     justify-content: center;
     display:grid;
