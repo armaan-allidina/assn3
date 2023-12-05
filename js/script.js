@@ -7,6 +7,7 @@ var a6=false;
 var j;
 var c=["#ff0000", "#00b400","#0000ff","#00ffff","#ff00ff","#ffff00","#000000","#ffffff"];
 $("#box1").on("click", function(){
+    console.log('1');
     if(a1==true){
         $(this).css("transform", "translate(-100, -100)");
         a1=false;
@@ -17,6 +18,7 @@ $("#box1").on("click", function(){
     }
 });
 $("#box2").on("click", function(){
+    console.log('2');
     if(a2==true){
         $(this).css("transform", "translate(0, -100)");
         a2=false;
