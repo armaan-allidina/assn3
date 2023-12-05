@@ -12,14 +12,46 @@ body {
     font-family: arial, sans-serif;
     min-height: 100vh;
     display: flex;
+    background-color: black  ;
     flex-direction: column;
 }
 
 .wrap {
     margin: auto;
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
     justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .box {}
+.mid {
+    background-color: lightgrey;
+    min-width: 300px;
+    min-height: 300px;
+    width: 18vw;
+    height: 18vw;
+    margin: 1vw;
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    grid-column: 2;
+    
+}
+
+.wrap div:nth-child(6){
+    grid-column: 1;
+    grid-row: 3
+}
+.wrap div:nth-child(5){
+    grid-column: 2;
+    grid-row: 3
+}
+.wrap div:nth-child(7){
+    grid-column: 3;
+    grid-row: 3;
+}
